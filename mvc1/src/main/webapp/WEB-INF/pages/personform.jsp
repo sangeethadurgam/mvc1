@@ -10,7 +10,7 @@
 		<title>Insert title here</title>
 	</head>
 	<body>
-	<url:url value="/personDetails" var="url"></url:url>
+	<url:url value="/processPersonDetails" var="url"></url:url>
 		<form:form action="${url }"  modelAttribute="personObj">
 			<table>
 				<tr>

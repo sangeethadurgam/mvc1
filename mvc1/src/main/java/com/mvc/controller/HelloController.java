@@ -29,7 +29,7 @@ package com.mvc.controller;
 		public String sayHelloToUser(HttpServletRequest request,Model model)
 		{
 			String name=request.getParameter("name");
-			model.addAttribute("message","welcom"+name);
+			model.addAttribute("message","welcome"+name);
 			return "welcomePage";
 		}
 		
@@ -37,8 +37,6 @@ package com.mvc.controller;
 		@RequestMapping("/c")
 		public String personForm()
 		{
-			return "presonform";
+			return "personform";
 		}
 	}
-
-
